@@ -1,0 +1,791 @@
+{
+  "data": {
+    "id": "021c4919-e76b-49d9-8fd4-e1ac4e8de787",
+    "meta": {
+      "base_cdn_url": "https://sl3-cdn.karousell.com/components/"
+    },
+    "screens": [
+      {
+        "id": "screen_0",
+        "groups": [
+          {
+            "id": "photo_group",
+            "ui_rules": {},
+            "meta": {
+              "group_name": "photo_group",
+              "visible": true
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_photo_viewer",
+                "meta": {
+                  "component": "photo_viewer",
+                  "field_name": "photos",
+                  "default_value": [
+                    {
+                      "is_primary": true,
+                      "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68",
+                      "image": "photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68",
+                      "id": 1835576722,
+                      "time_created": "2023-05-13T02:54:48Z",
+                      "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68_progressive",
+                      "image_progressive_low_range": 23252,
+                      "image_progressive_medium_range": 49052,
+                      "entity_type": "photo"
+                    },
+                    {
+                      "is_primary": false,
+                      "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b1355c21",
+                      "image": "photos/products/2023/5/13/ps4_games_1683946488_b1355c21",
+                      "id": 1835576723,
+                      "time_created": "2023-05-13T02:54:48Z",
+                      "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b1355c21_progressive",
+                      "image_progressive_low_range": 20725,
+                      "image_progressive_medium_range": 43127,
+                      "entity_type": "photo"
+                    },
+                    {
+                      "is_primary": false,
+                      "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_fa03d042",
+                      "image": "photos/products/2023/5/13/ps4_games_1683946488_fa03d042",
+                      "id": 1835576724,
+                      "time_created": "2023-05-13T02:54:48Z",
+                      "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_fa03d042_progressive",
+                      "image_progressive_low_range": 27324,
+                      "image_progressive_medium_range": 58737,
+                      "entity_type": "photo"
+                    }
+                  ]
+                },
+                "ui_rules": {
+                  "visible": true
+                },
+                "validation_rules": []
+              }
+            ]
+          },
+          {
+            "id": "group_sticky_info_group",
+            "ui_rules": {},
+            "meta": {
+              "group_name": "sticky_info_group",
+              "visible": true
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_sticky_info",
+                "meta": {
+                  "component": "info_card",
+                  "default_value": "",
+                  "field_name": "sticky_info",
+                  "listing_attribute_field": false,
+                  "use_default_attributes": true
+                },
+                "ui_rules": {
+                  "default_col": 3,
+                  "font_size": "large",
+                  "items": [
+                    {
+                      "icon": "condition_v4_1.svg",
+                      "text": "Like new",
+                      "type": "condition_tutorial",
+                      "condition_tutorial": {
+                        "items": [
+                          {
+                            "icon_url": "https://sl3-cdn.karousell.com/components/condition_brandNew.png",
+                            "description": "Brand new: Never used before. Comes with original packaging or tag.",
+                            "condition": "Brand new",
+                            "value": "3"
+                          },
+                          {
+                            "icon_url": "https://sl3-cdn.karousell.com/components/condition_likeNew.png",
+                            "description": "Like new: Used lightly only once or twice. As good as new.",
+                            "condition": "Like new",
+                            "value": "4",
+                            "highlight": true
+                          },
+                          {
+                            "icon_url": "https://sl3-cdn.karousell.com/components/condition_lightlyUsed.png",
+                            "description": "Used with care. Flaws, if any, are barely noticeable.",
+                            "condition": "Lightly used",
+                            "value": "7"
+                          },
+                          {
+                            "icon_url": "https://sl3-cdn.karousell.com/components/condition_wellUsed_v2.png",
+                            "description": "Well used: Used but handled with care. Might have some minor flaws or defects.",
+                            "condition": "Well used",
+                            "value": "5"
+                          },
+                          {
+                            "icon_url": "https://sl3-cdn.karousell.com/components/condition_heavilyUsed.png",
+                            "description": "Heavily used: Used, with obvious signs of use or defects.",
+                            "condition": "Heavily used",
+                            "value": "6"
+                          }
+                        ],
+                        "title": "Condition"
+                      }
+                    },
+                    {
+                      "icon": "icon_mailing_meetup.svg",
+                      "text": "Meetup"
+                    },
+                    {
+                      "icon": "location_v4_1.svg",
+                      "text": "MTR Tin Shui Wai Station (港鐵天水圍站)"
+                    }
+                  ],
+                  "title": "",
+                  "visible": true
+                },
+                "validation_rules": []
+              }
+            ]
+          },
+          {
+            "id": "group_price_group",
+            "ui_rules": {},
+            "meta": {
+              "group_name": "price_group",
+              "visible": true
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_price",
+                "meta": {
+                  "component": "paragraph",
+                  "default_value": "HK$110",
+                  "field_name": "price",
+                  "listing_attribute_field": false,
+                  "update_default_value": false
+                },
+                "ui_rules": {
+                  "align_left": true,
+                  "font_color": "urbangrey_90",
+                  "formatting": {},
+                  "visible": true,
+                  "font_size": "title2",
+                  "font_weight": "bold",
+                  "server_formatting": [
+                    "right_actions"
+                  ],
+                  "server_formatting_rules": {
+                    "right_actions": {
+                      "price_revision_entry_point": "true"
+                    }
+                  }
+                },
+                "validation_rules": []
+              }
+            ]
+          },
+          {
+            "id": "group_condition",
+            "ui_rules": {
+              "hide_if_content_matches": {
+                "is_mall": [
+                  "true"
+                ]
+              }
+            },
+            "meta": {
+              "group_name": "condition_group",
+              "visible": true,
+              "header": "Condition"
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_condition_with_action",
+                "meta": {
+                  "component": "paragraph",
+                  "default_value": "Like new",
+                  "field_name": "condition_with_action",
+                  "listing_attribute_field": false
+                },
+                "ui_rules": {
+                  "align_left": true,
+                  "cds_text_style": "cds_text_style_middle_call_out",
+                  "font_color": "urbangrey_90",
+                  "formatting": {},
+                  "visible": true,
+                  "right_actions": [
+                    {
+                      "action": {
+                        "type": "condition_tutorial",
+                        "condition_tutorial": {
+                          "items": [
+                            {
+                              "icon_url": "https://sl3-cdn.karousell.com/components/condition_brandNew.png",
+                              "description": "Brand new: Never used before. Comes with original packaging or tag.",
+                              "condition": "Brand new",
+                              "value": "3"
+                            },
+                            {
+                              "icon_url": "https://sl3-cdn.karousell.com/components/condition_likeNew.png",
+                              "description": "Like new: Used lightly only once or twice. As good as new.",
+                              "condition": "Like new",
+                              "value": "4",
+                              "highlight": true
+                            },
+                            {
+                              "icon_url": "https://sl3-cdn.karousell.com/components/condition_lightlyUsed.png",
+                              "description": "Used with care. Flaws, if any, are barely noticeable.",
+                              "condition": "Lightly used",
+                              "value": "7"
+                            },
+                            {
+                              "icon_url": "https://sl3-cdn.karousell.com/components/condition_wellUsed_v2.png",
+                              "description": "Well used: Used but handled with care. Might have some minor flaws or defects.",
+                              "condition": "Well used",
+                              "value": "5"
+                            },
+                            {
+                              "icon_url": "https://sl3-cdn.karousell.com/components/condition_heavilyUsed.png",
+                              "description": "Heavily used: Used, with obvious signs of use or defects.",
+                              "condition": "Heavily used",
+                              "value": "6"
+                            }
+                          ],
+                          "title": "Condition"
+                        }
+                      },
+                      "image_url": "https://sl3-cdn.karousell.com/components/dm/help@3x.png"
+                    }
+                  ],
+                  "padding_bottom": "cds_spacing_0",
+                  "hide_if_any_content_matches": {
+                    "condition": [
+                      "0"
+                    ]
+                  }
+                },
+                "validation_rules": []
+              },
+              {
+                "dependency_rules": [],
+                "id": "field_condition_description",
+                "meta": {
+                  "component": "paragraph",
+                  "default_value": "Like new: Used lightly only once or twice. As good as new.",
+                  "field_name": "condition_description",
+                  "listing_attribute_field": false
+                },
+                "ui_rules": {
+                  "align_left": true,
+                  "font_color": "urbangrey_90",
+                  "formatting": {},
+                  "visible": true,
+                  "server_formatting": [
+                    "enum"
+                  ],
+                  "server_formatting_rules": {
+                    "enum": {
+                      "3": "Brand new: Never used before. Comes with original packaging or tag.",
+                      "4": "Like new: Used lightly only once or twice. As good as new.",
+                      "5": "Well used: Used but handled with care. Might have some minor flaws or defects.",
+                      "6": "Heavily used: Used, with obvious signs of use or defects."
+                    }
+                  }
+                },
+                "validation_rules": []
+              }
+            ]
+          },
+          {
+            "id": "group_description_group",
+            "ui_rules": {},
+            "meta": {
+              "group_name": "description_group",
+              "visible": true,
+              "header": "Description"
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_description_info",
+                "meta": {
+                  "component": "info_card",
+                  "default_value": "",
+                  "field_name": "description_info",
+                  "listing_attribute_field": false,
+                  "prefill_attributes": true
+                },
+                "ui_rules": {
+                  "default_col": 3,
+                  "font_size": "large",
+                  "items": [
+                    {
+                      "header": "Posted",
+                      "text": "4 weeks ago"
+                    },
+                    {
+                      "header": "Compatibility",
+                      "text": "ps4",
+                      "hide_if_any_content_not_matches": {
+                        "compatibility_enum": [
+                          "COMPATIBILITY_OTHERS",
+                          ""
+                        ]
+                      }
+                    }
+                  ],
+                  "title": "",
+                  "visible": true
+                },
+                "validation_rules": []
+              },
+              {
+                "dependency_rules": [],
+                "id": "field_description",
+                "meta": {
+                  "component": "paragraph",
+                  "default_value": "E 110\r\nG 200\r\n\r\n價位合理, 議價不回, \r\n(文盲/白撞者即封)\r\n\r\n留 whatsapp 用作溝通 & 交收\r\n\r\nMTR Tin Shui Wai Station          (港鐵天水圍站)\r\nMTR Mei Foo Station                 (港鐵美孚站)\r\nMTR Tsuen Wan West Station    (港鐵荃灣西站)\r\nMTR Nam Cheong Station         (港鐵南昌站)",
+                  "field_name": "description",
+                  "listing_attribute_field": true
+                },
+                "ui_rules": {
+                  "align_left": true,
+                  "formatting": {},
+                  "visible": true,
+                  "truncate_content": true,
+                  "truncate_text": "read more",
+                  "font_size": "small"
+                },
+                "validation_rules": []
+              }
+            ]
+          },
+          {
+            "id": "group_meetups",
+            "ui_rules": {
+              "hide_if_content_matches": {
+                "meetup": [
+                  "false",
+                  "none",
+                  ""
+                ]
+              }
+            },
+            "meta": {
+              "group_name": "meetups_group",
+              "visible": true,
+              "header": "Meet-up"
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_meetups_viewer",
+                "meta": {
+                  "component": "meetups_viewer",
+                  "field_name": "meetups",
+                  "listing_attribute_field": false,
+                  "default_value": [
+                    {
+                      "name": "MTR Tin Shui Wai Station (港鐵天水圍站)",
+                      "address": "Tin Fuk Rd, Yuen Long District",
+                      "latitude": 22.44856772,
+                      "longitude": 114.00489362,
+                      "note": ""
+                    },
+                    {
+                      "name": "MTR Mei Foo Station (港鐵美孚站)",
+                      "address": "Kwai Chung Rd",
+                      "latitude": 22.33798924,
+                      "longitude": 114.1385293,
+                      "note": ""
+                    },
+                    {
+                      "name": "MTR Tsuen Wan West Station (港鐵荃灣西站)",
+                      "address": "Tsuen Wan Rd (at Tai Ho Rd), Tsuen Wan District",
+                      "latitude": 22.3671844,
+                      "longitude": 114.11096717,
+                      "note": ""
+                    },
+                    {
+                      "name": "MTR Nam Cheong Station (港鐵南昌站)",
+                      "address": "Lin Cheung Rd, Sham Shui Po",
+                      "latitude": 22.3267772,
+                      "longitude": 114.1536799,
+                      "note": ""
+                    }
+                  ]
+                },
+                "ui_rules": {
+                  "hide_if_content_matches": {
+                    "meetup": [
+                      "false",
+                      "none",
+                      ""
+                    ]
+                  },
+                  "icon_path": {
+                    "android": {
+                      "hdpi": "dm/location@hdpi.png",
+                      "mdpi": "dm/location@mdpi.png",
+                      "xhdpi": "dm/location@xhdpi.png",
+                      "xxhdpi": "dm/location@xxhdpi.png",
+                      "xxxhdpi": "dm/location@xxxhdpi.png"
+                    },
+                    "ios": {
+                      "2x": "dm/location@2x.png",
+                      "3x": "dm/location@3x.png"
+                    },
+                    "web": "dm/location.svg"
+                  },
+                  "location_count": "4",
+                  "title": "Meet-up",
+                  "visible": true,
+                  "external_link_icon_path": {
+                    "web": "external_link.svg"
+                  },
+                  "formatting": {}
+                },
+                "validation_rules": []
+              }
+            ]
+          },
+          {
+            "id": "group_seller_info",
+            "ui_rules": {},
+            "meta": {
+              "group_name": "seller_info",
+              "visible": true
+            },
+            "fields": [
+              {
+                "dependency_rules": [],
+                "id": "field_seller_info",
+                "meta": {
+                  "component": "seller_info",
+                  "field_name": "seller",
+                  "default_value": {
+                    "date_joined": "1 year ago",
+                    "id": 33702760,
+                    "is_email_verified": true,
+                    "is_facebook_verified": true,
+                    "is_gplus_verified": true,
+                    "is_mobile_verified": true,
+                    "is_official_partner": false,
+                    "negative_reviews_count": 0,
+                    "neutral_reviews_count": 0,
+                    "positive_reviews_count": 17,
+                    "feedback_count": 16,
+                    "feedback_score": 5,
+                    "profile_picture": "https://media.karousell.com/media/photos/profiles/2023/03/19/foldingbikeman_1679207669_4edccf8e.jpg",
+                    "username": "foldingbikeman",
+                    "verification_type": "VE",
+                    "response_rate": "H",
+                    "is_id_verified": false,
+                    "first_name": "FoldingBike",
+                    "last_name": "Man"
+                  }
+                },
+                "ui_rules": {
+                  "feedback_word": "Feedback",
+                  "joined_word": "Joined ",
+                  "verified_word": "Verified",
+                  "visible": true,
+                  "formatting": null
+                },
+                "validation_rules": []
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "screen_name": "listing_details_screen",
+          "share_text": "PS4 games for HK$110 https://www.carousell.com.hk/p/1231622458",
+          "default_value": {
+            "collection": {
+              "meta_description": "",
+              "meta_keywords": "Buy and Sell Nintendo",
+              "slug": "nintendo",
+              "display_name": "Nintendo",
+              "name": "Nintendo",
+              "is_special": false,
+              "order": 2,
+              "image_url": "https://media.karousell.com/media/photos/country-collections/2021/02/27/03/5_2_2-nintendo.png",
+              "image_urls": {},
+              "id": 5370,
+              "cc_id": 5370,
+              "subcategories": []
+            },
+            "comments_count": 0,
+            "condition": "1",
+            "currency_code": "HKD",
+            "currency_symbol": "HK$",
+            "description": "E 110\r\nG 200\r\n\r\n價位合理, 議價不回, \r\n(文盲/白撞者即封)\r\n\r\n留 whatsapp 用作溝通 & 交收\r\n\r\nMTR Tin Shui Wai Station          (港鐵天水圍站)\r\nMTR Mei Foo Station                 (港鐵美孚站)\r\nMTR Tsuen Wan West Station    (港鐵荃灣西站)\r\nMTR Nam Cheong Station         (港鐵南昌站)",
+            "flattened_description": "E 110\r\nG 200\r\n\r\n價位合理, 議價不回, \r\n(文盲/白撞者即封)\r\n\r\n留 whatsapp 用作溝通 & 交收\r\n\r\nMTR Tin Shui Wai Station          (港鐵天水圍站)\r\nMTR Mei Foo Station                 (港鐵美孚站)\r\nMTR Tsuen Wan West Station    (港鐵荃灣西站)\r\nMTR Nam Cheong Station         (港鐵南昌站)",
+            "has_smart_description": true,
+            "flags": {
+              "is_price_drop_bump_eligible": false,
+              "require_mobile_verification": false
+            },
+            "id": 1231622458,
+            "is_caroupay_enabled": false,
+            "is_mall": false,
+            "is_p24": false,
+            "is_c2c_enabled": false,
+            "is_free_item": false,
+            "is_popular": false,
+            "last_modified": "2023-06-03T06:52:38Z",
+            "like_status": false,
+            "likes_count": 1,
+            "location": {
+              "latitude": 22.44856772,
+              "longitude": 114.00489362
+            },
+            "location_address": "Tin Fuk Rd, Yuen Long District",
+            "location_name": "MTR Tin Shui Wai Station (港鐵天水圍站)",
+            "mailing": false,
+            "mailing_details": "",
+            "marketplace": {
+              "id": 1819729,
+              "name": "Hong Kong",
+              "location": {
+                "latitude": 22.28552,
+                "longitude": 114.15769
+              },
+              "region": {
+                "id": 7533598,
+                "code": "HK.HCW",
+                "name": "Central and Western",
+                "country": {
+                  "id": 1819730,
+                  "code": "HK",
+                  "name": "Hong Kong",
+                  "city_count": 1
+                }
+              },
+              "country": {
+                "id": 1819730,
+                "code": "HK",
+                "name": "Hong Kong",
+                "city_count": 1
+              }
+            },
+            "meetup": true,
+            "meetup_details": "",
+            "meetups": [
+              {
+                "name": "MTR Tin Shui Wai Station (港鐵天水圍站)",
+                "address": "Tin Fuk Rd, Yuen Long District",
+                "latitude": 22.44856772,
+                "longitude": 114.00489362,
+                "note": ""
+              },
+              {
+                "name": "MTR Mei Foo Station (港鐵美孚站)",
+                "address": "Kwai Chung Rd",
+                "latitude": 22.33798924,
+                "longitude": 114.1385293,
+                "note": ""
+              },
+              {
+                "name": "MTR Tsuen Wan West Station (港鐵荃灣西站)",
+                "address": "Tsuen Wan Rd (at Tai Ho Rd), Tsuen Wan District",
+                "latitude": 22.3671844,
+                "longitude": 114.11096717,
+                "note": ""
+              },
+              {
+                "name": "MTR Nam Cheong Station (港鐵南昌站)",
+                "address": "Lin Cheung Rd, Sham Shui Po",
+                "latitude": 22.3267772,
+                "longitude": 114.1536799,
+                "note": ""
+              }
+            ],
+            "offer": null,
+            "photos": [
+              {
+                "is_primary": true,
+                "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68",
+                "image": "photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68",
+                "id": 1835576722,
+                "time_created": "2023-05-13T02:54:48Z",
+                "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68_progressive",
+                "image_progressive_low_range": 23252,
+                "image_progressive_medium_range": 49052,
+                "entity_type": "photo"
+              },
+              {
+                "is_primary": false,
+                "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b1355c21",
+                "image": "photos/products/2023/5/13/ps4_games_1683946488_b1355c21",
+                "id": 1835576723,
+                "time_created": "2023-05-13T02:54:48Z",
+                "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b1355c21_progressive",
+                "image_progressive_low_range": 20725,
+                "image_progressive_medium_range": 43127,
+                "entity_type": "photo"
+              },
+              {
+                "is_primary": false,
+                "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_fa03d042",
+                "image": "photos/products/2023/5/13/ps4_games_1683946488_fa03d042",
+                "id": 1835576724,
+                "time_created": "2023-05-13T02:54:48Z",
+                "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_fa03d042_progressive",
+                "image_progressive_low_range": 27324,
+                "image_progressive_medium_range": 58737,
+                "entity_type": "photo"
+              }
+            ],
+            "media": [
+              {
+                "is_primary": true,
+                "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68",
+                "image": "photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68",
+                "id": 1835576722,
+                "time_created": "2023-05-13T02:54:48Z",
+                "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b5c2ac68_progressive",
+                "image_progressive_low_range": 23252,
+                "image_progressive_medium_range": 49052,
+                "entity_type": "photo"
+              },
+              {
+                "is_primary": false,
+                "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b1355c21",
+                "image": "photos/products/2023/5/13/ps4_games_1683946488_b1355c21",
+                "id": 1835576723,
+                "time_created": "2023-05-13T02:54:48Z",
+                "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_b1355c21_progressive",
+                "image_progressive_low_range": 20725,
+                "image_progressive_medium_range": 43127,
+                "entity_type": "photo"
+              },
+              {
+                "is_primary": false,
+                "image_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_fa03d042",
+                "image": "photos/products/2023/5/13/ps4_games_1683946488_fa03d042",
+                "id": 1835576724,
+                "time_created": "2023-05-13T02:54:48Z",
+                "image_progressive_url": "https://media.karousell.com/media/photos/products/2023/5/13/ps4_games_1683946488_fa03d042_progressive",
+                "image_progressive_low_range": 27324,
+                "image_progressive_medium_range": 58737,
+                "entity_type": "photo"
+              }
+            ],
+            "title": "PS4 games",
+            "price": "110.00",
+            "price_formatted": "110",
+            "seller": {
+              "username": "foldingbikeman",
+              "id": 33702760,
+              "profile": {
+                "image_url": "https://media.karousell.com/media/photos/profiles/2023/03/19/foldingbikeman_1679207669_4edccf8e.jpg",
+                "image": "photos/profiles/2023/03/19/foldingbikeman_1679207669_4edccf8e.jpg",
+                "image_progressive_url": "https://media.karousell.com/media/photos/profiles/2023/03/19/foldingbikeman_1679207669_4edccf8e_progressive.jpg",
+                "image_progressive_low_range": 2092,
+                "image_progressive_medium_range": 3697,
+                "verification_type": "VE",
+                "is_email_verified": true,
+                "is_facebook_verified": true,
+                "is_gplus_verified": true,
+                "is_mobile_verified": true,
+                "is_official_partner": false,
+                "marketplace": {
+                  "id": 1819729,
+                  "name": "Hong Kong",
+                  "location": {
+                    "latitude": 22.28552,
+                    "longitude": 114.15769
+                  },
+                  "region": {
+                    "id": 7533598,
+                    "code": "HK.HCW",
+                    "name": "Central and Western",
+                    "country": {
+                      "id": 1819730,
+                      "code": "HK",
+                      "name": "Hong Kong",
+                      "city_count": 1
+                    }
+                  },
+                  "country": {
+                    "id": 1819730,
+                    "code": "HK",
+                    "name": "Hong Kong",
+                    "city_count": 1
+                  }
+                },
+                "is_id_verified": false,
+                "is_affiliate": false
+              },
+              "followers_count": 2,
+              "last_name": "Man",
+              "first_name": "FoldingBike",
+              "blocked": false,
+              "is_suspended": false,
+              "positive_reviews_count": 17,
+              "neutral_reviews_count": 0,
+              "negative_reviews_count": 0,
+              "date_joined": "2022-01-02T04:51:02Z",
+              "response_rate": "H",
+              "feedback_count": 16,
+              "feedback_score": 5,
+              "has_more_reviews": true
+            },
+            "smart_attributes": {
+              "deal_options": "MEETUP",
+              "is_bp_enabled": ""
+            },
+            "source": "C",
+            "status": "L",
+            "subscribed": false,
+            "time_created": "2023-05-13T02:54:48Z",
+            "time_indexed": "2023-05-13T02:54:48Z",
+            "layered_condition": 4,
+            "enabled_shipping": [],
+            "user_state": 6,
+            "listing_url": "carousell://p/1231622458"
+          }
+        },
+        "ui_rules": {
+          "offer_cta_rules": {
+            "ask_the_seller_text": "Ask Seller",
+            "boost_text": "No chats yet - Promote",
+            "bump_listing_text": "Bump listing",
+            "buyer_bought_text": "You Bought This",
+            "buyer_chat_text": "Chat",
+            "buyer_make_offer_text": "Make Offer",
+            "buyer_offered_text": "View Offer - {offer_price}",
+            "buyer_quick_buy_text": "Buy",
+            "draft_text": "Inactive",
+            "expired_text": "Inactive",
+            "mark_as_active_text": "Mark as active",
+            "pay_postage_seller_text": "Pay postage",
+            "promote_text": "No chats yet - Promote",
+            "request_item_seller_text": "Request",
+            "reserved_text": "Reserved",
+            "seller_listed_text": "View {num_offers} chat",
+            "seller_listed_text_multi": "View {num_offers} chats",
+            "sold_text": "Sold",
+            "view_chat_text": "View Chat",
+            "view_chats_text": "View Chats"
+          },
+          "server_formatting_rules": {
+            "buyer_share_text": "{title} for {price} {url}",
+            "seller_share_text": "Check out my item! {title} for {price}! {url}"
+          },
+          "actions": {
+            "primary_button": {
+              "action": "make_offer",
+              "button_text": "Make Offer"
+            },
+            "secondary_button": {
+              "action": "view_offer",
+              "button_text": "Chat"
+            }
+          },
+          "snack_bar_rules": null
+        }
+      }
+    ]
+  }
+}

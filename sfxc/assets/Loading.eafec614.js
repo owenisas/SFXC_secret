@@ -1,0 +1,1 @@
+import{aj as e,ak as o,b as a,al as n,o as t}from"./index.b1f13302.js";const c={name:"LoadingComponent"},s={class:"loading-container"};function r(_,i,d,p,l,m){return t(),o("div",s,[a(n,{indeterminate:"",color:"primary",size:70,width:7})])}const f=e(c,[["render",r],["__scopeId","data-v-cec50e35"]]);export{f as default};
